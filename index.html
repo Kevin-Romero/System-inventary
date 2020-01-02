@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index-style.css">
+
+    <title>TeWeb</title>
+</head>
+<body>
+
+
+    <header class="login-title">
+       <h1 class="text-center">Sistema de Control de Almacen</h1>
+    </header>
+
+   <header class="login-container">
+
+
+
+        <div class="login-img-container">
+            <img src="img/logo/logo.png" alt="logo">
+        </div>
+
+        <div class="form-container">
+            <form action="php/validacion/validar-login.php" method="POST" enctype="multipart/form-data">
+                <div class="input-container">
+                    <input type="text" placeholder="User" class="w-100 mt-3 input-login" name="user" required id="user">
+                    <input type="password" placeholder="Password" class="w-100 mt-3 input-login" name="password" required id="password">
+                    <input type="submit" value="Log In"
+                           class ="w-100 btn mt-3 btn-login">
+                </div>
+            </form>
+        </div>
+   </header>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+
+</body>
+</html>
